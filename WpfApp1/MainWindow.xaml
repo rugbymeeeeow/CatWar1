@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="446" Width="450">
+    <Grid>
+        <Button Content="НАЖМИ" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Click="Button_Click" Height="52" Width="192"/>
+        <TextBox HorizontalAlignment="Center" Name="What" Margin="0,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="288" Height="81"/>
+        <Image Margin="136,40,136,218" Source="/Image2.png" Stretch="Fill"/>
+
+
+    </Grid>
+</Window>
